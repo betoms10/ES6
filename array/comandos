@@ -1,0 +1,32 @@
+
+push Insere elemento no final de um array
+array.push('x');
+
+pop Remove elemento do final do array
+array.pop();
+
+unshift
+Adiciona no inicio
+array.unshift('x');
+
+shift
+Remove no inicio
+array.shift();
+
+concat
+Concatena um ou mais arrays retornando um novo array
+const novo_array = array1.concat(array2);
+
+slice
+Retorna um novo array fatiando o array de acordo com inicio e fimi indicados
+
+array.slice(0,2); inicio e final
+array.slice(2); a partir da posicao incluindo a posicao
+
+splice
+altera um array adicionando novos elementos enquanto remove elementos antigos
+array.splice(2);
+array.splice(0,0, 'first');
+
+
+
